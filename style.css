@@ -30,6 +30,7 @@ footer, header, hgroup, menu, nav, section {
 }
 body {
 	line-height: 10px;
+    overflow-x: hidden;
 }
 ol, ul {
 	list-style: none;
@@ -48,7 +49,7 @@ table {
     line-height: 2em;
 }
 
-.menu-bar {
+.menu-button {
 
     color: white;
     background-color: black;
@@ -81,19 +82,40 @@ table {
     
 }
 
-#idcta-link
+.menu-link
 {
     color: white;
     text-decoration: none; 
 }
 
-#menu-home 
+
+.menu-small-button 
 {
-    border-image-repeat: stretch;
+    color: white;
+    background-color: black;
+    border-style: solid;
+    border-color: darkgray;
+    border-bottom-width: 1px;
+    float: left;
+    height: 2.6em;
+    font-family: Arial, Helvetica, freesans, sans-serif;
+    font-weight: 700;
     border-right-width: 1px;
     line-height: 2.5em;
     padding-left: 1em;
     padding-right: 1em;
     
+}
+
+#more-menu-button
+{
+    padding-right: 5em;
+}
+
+#search-bar
+{
+    margin-right: -9999rem;
+    padding-right: 9999rem;
+    overflow-x: hidden;
 }
 
