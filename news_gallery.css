@@ -1,6 +1,6 @@
 .gallery
 {
-    background-color: #ccc;
+    background-color: #eee;
     float: left;
     position: absolute;
     top: 5em;
@@ -9,6 +9,13 @@
 }
 
 .gallery img
+{
+    filter: brightness(75%);
+    width:20em; 
+    height: auto;
+        
+}
+#main_img
 {
     filter: brightness(75%);
     width:28em; 
