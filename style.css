@@ -63,6 +63,7 @@ table {
     height: 2.6em;
     font-family: Arial, Helvetica, freesans, sans-serif;
     font-weight: 700;
+    z-index: 4;
 
 }
 
@@ -72,6 +73,7 @@ table {
     margin-left: var(--bbc-logo-margin);
     border-right-width: 1px;
     line-height: 3.8em;
+    z-index: 4;
 
 }
 
@@ -82,6 +84,7 @@ table {
     line-height: 2.5em;
     padding-left: 1vw;
     padding-right: 4vw;
+    z-index: 4;
     
 }
 
@@ -107,42 +110,50 @@ table {
     line-height: 2.5em;
     padding-left: 1vw;
     padding-right: 1vw;
+    z-index: 4;
     
 }
 
 #more-menu-button
 {
     padding-right: 5vw;
+    z-index: 4;
 }
 
 #search-bar
 {
     margin-right: -9999rem;
     padding-right: 9999rem;
+    z-index: 4;
 }
 
 #page
 {
-    background-color: #ccc;
+    background-color: #eee;
     color: black;
+    clear: both;
     float: none;
     font-family: Arial, Helvetica, freesans, sans-serif;
     font-weight: 700;
     font-size: 1.5em;
+    z-index: -3;
 }
 
 #title
 {   
-    background-color: inherit;
-    top: 1.75em;
+    color: black;
     line-height: 2em;
-    text-align: center;
+    text-align: left;
     padding-left: var(--bbc-logo-margin);
-    padding-right: 999rem;
-    width: 16rem;
+    width: 100%;
     padding-bottom: 0.25em;
     padding-top: 1em;
-    position: absolute;
-    z-index: -2;
+    position: relative;
+    z-index: 1;
 }
 
+.clear
+{
+    width: 0%;
+    clear: both;
+}

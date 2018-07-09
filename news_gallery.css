@@ -1,41 +1,78 @@
-.gallery
+#news-headlines
 {
     background-color: #eee;
-    float: left;
-    position: absolute;
-    top: 5em;
-    padding-left: var(--bbc-logo-margin);
-    padding-right: 9999rem;  
+    list-style-type: none;
+    min-height: 25em;
+    max-width: calc(var(--bbc-logo-margin) + 100em);
+    padding-top: 1px;
 }
 
-.gallery img
+.news-headline
 {
-    filter: brightness(75%);
-    width:20em; 
-    height: auto;
-        
+    float: left;
+    padding-left: 1em;
+    padding-bottom: 3em;
 }
-#main_img
+
+.news-headline img
 {
-    filter: brightness(75%);
-    width:28em; 
-    height: auto;
-        
+    height: 11em;
+    filter: brightness(65%);    
 }
-.gallery img:hover
+
+.news-headline img:hover
 {
-    filter: brightness(100%)
+    filter: brightness(100%);
+}
+
+#main-headline
+{
+    float: left;
+    list-style-type: none;
+    margin-left: var(--bbc-logo-margin);
+}
+
+#main-headline img
+{
+   filter: brightness(75%);
+}
+
+#main-headline img:hover
+{
+   filter: brightness(100%);
 }
 
 .desc
 {
-    bottom: 4.5em;
+    bottom: 5em;
     color: whitesmoke;
     font-size: 1.5em;
     font-weight: 200;
     line-height: 2em;
     margin-left: 0.5em;
     position: relative;
+    width: 17em;
+    z-index: 4;
+}
+
+.news-headline-desc
+{
+    bottom: 1em;
+    color: whitesmoke;
+    line-height: 1em;
+    width: 10em;
+    font-size: 1.3em;
+    font-weight: 200;
+    margin-left: 1em;
+    margin-top: -4.25em;
+    position: relative;    
+}
+.news-headline-desc h3
+{
+    color: whitesmoke;
+    position: absolute;
+    margin-left: 0.5em;
+    top: 4em;
 }
 
 .desc p
@@ -59,6 +96,7 @@
     top: 0.45em;
     
 }
+
 .category_flair_asia_box
 {
     background-color: red;
@@ -67,5 +105,17 @@
     position: relative;
     min-width: 3px;
     top: 0.2em;
-    
 }
+
+.category_flair_uk_box
+{
+    color: whitesmoke;
+    background-color: aqua;
+    min-height: 1em;
+    float: left;
+    position: absolute;
+    min-width: 3px;
+    margin-right: 0.5em;
+    top: 4em;
+}
+
