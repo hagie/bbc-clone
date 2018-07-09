@@ -2,6 +2,9 @@
    v2.0 | 20110126
    License: none (public domain)
 */
+:root {
+  --bbc-logo-margin: 15vw;
+}
 
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
@@ -31,6 +34,7 @@ footer, header, hgroup, menu, nav, section {
 body {
 	line-height: 10px;
     overflow-x: hidden;
+    display: block;
 }
 ol, ul {
 	list-style: none;
@@ -51,11 +55,12 @@ table {
 
 .menu-button {
 
-    color: white;
     background-color: black;
     border-style: solid;
     border-color: darkgray;
     border-bottom-width: 1px;
+    color: white;
+    display: block;
     float: left;
     height: 2.6em;
     font-family: Arial, Helvetica, freesans, sans-serif;
@@ -65,8 +70,8 @@ table {
 
 #bbc-logo 
 {
-    padding-right: 1em;
-    margin-left: 14em;
+    padding-right: 1vw;
+    margin-left: var(--bbc-logo-margin);
     border-right-width: 1px;
     line-height: 3.8em;
 
@@ -77,8 +82,8 @@ table {
     border-image-repeat: stretch;
     border-right-width: 1px;
     line-height: 2.5em;
-    padding-left: 1em;
-    padding-right: 7em;
+    padding-left: 1vw;
+    padding-right: 4vw;
     
 }
 
@@ -102,14 +107,14 @@ table {
     font-weight: 700;
     border-right-width: 1px;
     line-height: 2.5em;
-    padding-left: 1em;
-    padding-right: 1em;
+    padding-left: 1vw;
+    padding-right: 1vw;
     
 }
 
 #more-menu-button
 {
-    padding-right: 5em;
+    padding-right: 5vw;
 }
 
 #search-bar
@@ -118,3 +123,19 @@ table {
     padding-right: 9999rem;
 }
 
+#page
+{
+    color: black;
+    float: none;
+    font-family: Arial, Helvetica, freesans, sans-serif;
+    font-weight: 700;
+    font-size: 1.5em;
+}
+
+#title
+{
+    margin-left: var(--bbc-logo-margin);
+    position: absolute;
+    top: 2.5vw;
+    z-index: -2;
+}
