@@ -3,7 +3,7 @@
    License: none (public domain)
 */
 :root {
-  --bbc-logo-margin: 15vw;
+  --bbc-logo-margin: 14vw;
 }
 
 html, body, div, span, applet, object, iframe,
@@ -34,7 +34,6 @@ footer, header, hgroup, menu, nav, section {
 body {
 	line-height: 10px;
     overflow-x: hidden;
-    display: block;
 }
 ol, ul {
 	list-style: none;
@@ -60,7 +59,6 @@ table {
     border-color: darkgray;
     border-bottom-width: 1px;
     color: white;
-    display: block;
     float: left;
     height: 2.6em;
     font-family: Arial, Helvetica, freesans, sans-serif;
@@ -125,6 +123,7 @@ table {
 
 #page
 {
+    background-color: #ccc;
     color: black;
     float: none;
     font-family: Arial, Helvetica, freesans, sans-serif;
@@ -133,9 +132,17 @@ table {
 }
 
 #title
-{
-    margin-left: var(--bbc-logo-margin);
+{   
+    background-color: inherit;
+    top: 1.75em;
+    line-height: 2em;
+    text-align: center;
+    padding-left: var(--bbc-logo-margin);
+    padding-right: 999rem;
+    width: 16rem;
+    padding-bottom: 0.25em;
+    padding-top: 1em;
     position: absolute;
-    top: 2.5vw;
     z-index: -2;
 }
+

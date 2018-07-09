@@ -1,0 +1,64 @@
+.gallery
+{
+    background-color: #ccc;
+    float: left;
+    position: absolute;
+    top: 5em;
+    padding-left: var(--bbc-logo-margin);
+    padding-right: 9999rem;  
+}
+
+.gallery img
+{
+    filter: brightness(75%);
+    width:28em; 
+    height: auto;
+        
+}
+.gallery img:hover
+{
+    filter: brightness(100%)
+}
+
+.desc
+{
+    bottom: 4.5em;
+    color: whitesmoke;
+    font-size: 1.5em;
+    font-weight: 200;
+    line-height: 2em;
+    margin-left: 0.5em;
+    position: relative;
+}
+
+.desc p
+{
+    color: whitesmoke;
+    font-size: 0.5em;
+    font-weight: 200;
+    line-height: 1.5em;
+    position: relative;
+}
+
+.desc h3
+{
+    color: whitesmoke;
+    float: left;
+    line-height: 1em;
+    font-size: 0.45em;
+    font-weight: 100;
+    margin-left: 0.5em;
+    position: relative;
+    top: 0.45em;
+    
+}
+.category_flair_asia_box
+{
+    background-color: red;
+    min-height: 15px;
+    float: left;
+    position: relative;
+    min-width: 3px;
+    top: 0.2em;
+    
+}
