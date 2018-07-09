@@ -64,7 +64,6 @@ table {
     font-family: Arial, Helvetica, freesans, sans-serif;
     font-weight: 700;
     z-index: 4;
-
 }
 
 #bbc-logo 
@@ -85,7 +84,11 @@ table {
     padding-left: 1vw;
     padding-right: 4vw;
     z-index: 4;
-    
+}
+
+#menu-signin:hover
+{
+    background-color: grey;
 }
 
 .menu-link
@@ -99,20 +102,27 @@ table {
 {
     color: white;
     background-color: black;
+    border-right-width: 1px;
     border-style: solid;
     border-color: darkgray;
     border-bottom-width: 1px;
     float: left;
-    height: 2.6em;
     font-family: Arial, Helvetica, freesans, sans-serif;
     font-weight: 700;
-    border-right-width: 1px;
+    height: 2.6em;
     line-height: 2.5em;
     padding-left: 1vw;
     padding-right: 1vw;
+    text-decoration: none; 
     z-index: 4;
     
 }
+
+.menu-small-button:hover{
+
+    background-color: grey;
+}
+
 
 #more-menu-button
 {
@@ -125,6 +135,11 @@ table {
     margin-right: -9999rem;
     padding-right: 9999rem;
     z-index: 4;
+}
+
+#search-bar:hover
+{
+    background-color: black;
 }
 
 #page
