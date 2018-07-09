@@ -97,7 +97,7 @@
     
 }
 
-.category_flair_asia_box
+.category-flair-asia-box
 {
     background-color: red;
     min-height: 15px;
@@ -107,15 +107,30 @@
     top: 0.2em;
 }
 
-.category_flair_uk_box
+.category-flair-box
 {
-    color: whitesmoke;
-    background-color: aqua;
+    background-color: whitesmoke;
     min-height: 1em;
     float: left;
     position: absolute;
     min-width: 3px;
     margin-right: 0.5em;
     top: 4em;
+}
+
+#travel-flair-box
+{
+    background-color: #589e50;
+}
+
+
+#culture-flair-box
+{
+    background-color: blueviolet;
+}
+
+#uk-politics-flair-box
+{
+    background-color: cornflowerblue;
 }
 
